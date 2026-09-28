@@ -1,0 +1,12 @@
+# Local secrets — never commit. Canonical copy lives in the Obsidian vault
+# (80 System/Secrets.md): SENDGRID_API_KEY, SENDGRID_MCP_TOKEN.
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
